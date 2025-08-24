@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Receitas da Beca</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Lora:wght@400;600&family=Merriweather:wght@400;700&family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Merriweather', serif;
+      background-color: #F5F3EF;
+      color: #2E2E2E;
+    }
+
+    header {
+      background-color: #FFFFFF;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #DDD;
+    }
+
+    header h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2rem;
+      color: #A3B18A;
+      margin: 0;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #2E2E2E;
+      font-weight: 500;
+      font-family: 'Quicksand', sans-serif;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 40px 20px;
+    }
+
+    .hero img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .hero h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.8rem;
+      margin-top: 30px;
+      color: #C2A878;
+    }
+
+    .receitas {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      padding: 40px;
+    }
+
+.card {
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+   .card h3 {
+  font-family: 'Lora', serif;
+  font-weight: 600;
+  color: #A3B18A;
+  margin-bottom: 10px;    }
+
+    .card p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #FFFFFF;
+      border-top: 1px solid #DDD;
+      font-size: 0.9rem;
+      color: #888;
+      font-family: 'Quicksand', sans-serif;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Receitas da Beca 🍏</h1>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="submit.html">Enviar Receita</a>
+      <a href="sobre.html">Sobre</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img src="https://bucket-site-beca.s3.us-east-2.amazonaws.com/home.png" alt="Imagem de disciplina alimentar, luxo e feminilidade" />
+    <h2>Receitas saudáveis com elegância e sabor</h2>
+  </section>
+
+<section class="receitas">
+  <a href="quinoa.html" class="card">
+    <h3>Salada de Quinoa</h3>
+    <p>Quinoa, tomate cereja, pepino, hortelã e azeite extra virgem.</p>
+  </a>
+  <a href="panqueca.html" class="card">
+    <h3>Panqueca Proteica</h3>
+    <p>Banana, ovos, aveia e um toque de canela.</p>
+  </a>
+  <a href="frango.html" class="card">
+    <h3>Frango ao Curry Light</h3>
+    <p>Peito de frango, leite de coco light, curry e legumes frescos.</p>
+  </a>
+</section>
+
+
+  <footer>
+    © 2025 Receitas da Beca. Todos os direitos reservados.
+  </footer>
+
+</body>
+</html>
